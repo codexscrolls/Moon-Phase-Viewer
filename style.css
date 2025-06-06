@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background: #0b0c10;
+  color: #f8f8f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.moon-container {
+  margin-top: 2rem;
+}
+
+#moon {
+  width: 150px;
+  height: 150px;
+}
