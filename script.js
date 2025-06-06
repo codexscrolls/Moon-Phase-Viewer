@@ -20,7 +20,6 @@ function updateMoon(date) {
       path.setAttribute("d", "M50,10 A40,40 0 1,1 30,90 A40,40 0 1,1 50,10 Z");
   }
 }
-console.log("Phase is:", phase);
 document.addEventListener("DOMContentLoaded", () => {
   const dateInput = document.getElementById("datePicker");
   const today = new Date();
