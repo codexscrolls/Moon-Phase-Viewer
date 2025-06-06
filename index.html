@@ -7,16 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Current Moon Phase</h1>
-    <div class="moon-container">
-      <svg id="moon" viewBox="0 0 100 100">
-        <circle cx="50" cy="50" r="40" fill="black" />
-        <path id="phase-shape" fill="white" />
-      </svg>
-      <p id="phase-label">Loading...</p>
-    </div>
+<div class="container">
+  <h1>Current Moon Phase</h1>
+  <input type="date" id="datePicker" /> <!-- ✅ Add this -->
+  <div class="moon-container">
+    <svg id="moon" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="40" fill="black" />
+      <path id="phase-shape" fill="white" />
+    </svg>
+    <p id="phase-label">Loading...</p>
   </div>
+</div>
   <script src="moon.js"></script>
   <script src="script.js"></script>
 </body>
