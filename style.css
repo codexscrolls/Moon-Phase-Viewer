@@ -1,13 +1,41 @@
 body {
   font-family: sans-serif;
-  background: #0b0c10;
+  background: #0e0e0e; /* matte black */
   color: #f8f8f2;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   min-height: 100vh;
   margin: 0;
 }
+
+#moon {
+  width: 150px;
+  height: 150px;
+  animation: pulse 4s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 2px white);
+  }
+  50% {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 6px #ddd);
+  }
+}
+
+input[type="date"] {
+  background: #222;
+  border: 1px solid #555;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
 
 .container {
   text-align: center;
@@ -15,9 +43,4 @@ body {
 
 .moon-container {
   margin-top: 2rem;
-}
-
-#moon {
-  width: 150px;
-  height: 150px;
 }
