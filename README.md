@@ -16,7 +16,7 @@ A minimalist web widget that shows the current moon phase based on today's date 
 - CSS animation
 
 ### Live Demo
-[[[https://yourusername.github.io/moon-phase-viewer](#)](https://codexscrolls.github.io/Moon-Phase-Viewer/)](https://codexscrolls.github.io/Moon-Phase-Viewer/)
+(https://codexscrolls.github.io/Moon-Phase-Viewer/)](https://codexscrolls.github.io/Moon-Phase-Viewer/)
 
 ### Structure
 - `index.html` — main layout
